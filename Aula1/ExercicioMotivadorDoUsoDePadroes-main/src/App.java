@@ -26,8 +26,8 @@ public class App {
         System.out.println(esportivo + "\n");
 
         esportivo.abastece(TipoCombustivel.GASOLINA, 999);
-        System.out.println("Abastecendo o carro " + esportivo.getModelo() + " com " + esportivo.getCombustivelDisponivel() + "L");
-        System.out.println("Indo para a Europa com o carro " + esportivo.getModelo());
+        System.out.println("Abastecendo o carro " + esportivo.getModelo() + " com " + esportivo.getCombustivelDisponivel() + "L\n");
+        System.out.println("Indo para a Europa com o carro " + esportivo.getModelo() + "\n");
 
         esportivo.viaja(70);
         esportivo.viaja(80);
@@ -48,6 +48,15 @@ public class App {
 
         System.out.println("==========================================================================================================================================");
         System.out.println(suv + "\n");
+
+        suv.abastece(TipoCombustivel.FLEX, 999);
+        System.out.println("Abastecendo o carro " + suv.getModelo() + " com " + suv.getCombustivelDisponivel() + "L\n");
+        System.out.println("Indo para o Azerbaijão com o carro " + suv.getModelo() + "\n");
+
+        suv.viaja(220);
+        suv.viaja(46);
+
+        System.out.println(suv);
 
         System.out.println("==========================================================================================================================================");
         System.out.println(suvFlex + "\n");
