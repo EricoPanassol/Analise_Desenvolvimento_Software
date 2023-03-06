@@ -37,6 +37,15 @@ public class App {
         System.out.println("==========================================================================================================================================");
         System.out.println(utilitario + "\n");
 
+        utilitario.abastece(TipoCombustivel.DIESEL, 999);
+        System.out.println("Abastecendo o carro " + utilitario.getModelo() + " com " + utilitario.getCombustivelDisponivel() + "L");
+        System.out.println("Indo para a praia com o carro " + utilitario.getModelo());
+
+        utilitario.viaja(110);
+        utilitario.viaja(111);
+
+        System.out.println(utilitario);
+
         System.out.println("==========================================================================================================================================");
         System.out.println(suv + "\n");
 
