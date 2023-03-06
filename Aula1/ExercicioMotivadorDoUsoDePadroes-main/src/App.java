@@ -8,20 +8,25 @@ public class App {
         Carro suvFlex = new Carro("SUV", TipoCombustivel.FLEX, 8, 65);
 
         
-
+        System.out.println("==========================================================================================================================================\n");
         System.out.println("Tipos de veiculos:");
+        System.out.println("==========================================================================================================================================\n");
+
         System.out.println(basico);
 
-        // System.out.println("\n\n----------------");
-        // System.out.println("\nAbastencendo carro basico com gasolina");
-        // basico.abastece(TipoCombustivel.GASOLINA, 55);
-        // System.out.println(basico);
-        // System.out.println("\nViajando com o carro basico");
-        // basico.viaja(250);
-        // basico.viaja(150);
-        // System.out.println(basico);
+        System.out.println(basico + "\n");
 
-        System.out.println("==========================================================================================================================================");
+        basico.abastece(TipoCombustivel.GASOLINA, 999);
+        System.out.println("Abastecendo o carro " + basico.getModelo() + " com " + basico.getCombustivelDisponivel() + "L\n");
+        System.out.println("Indo para Salto do Itararé com o carro " + basico.getModelo() + "\n");
+
+        basico.viaja(15);
+        basico.viaja(32);
+
+        System.out.println(basico);
+       
+
+        System.out.println("==========================================================================================================================================\n");
     
         System.out.println(esportivo + "\n");
 
@@ -34,7 +39,7 @@ public class App {
 
         System.out.println(esportivo);
 
-        System.out.println("==========================================================================================================================================");
+        System.out.println("==========================================================================================================================================\n");
         System.out.println(utilitario + "\n");
 
         utilitario.abastece(TipoCombustivel.DIESEL, 999);
@@ -46,7 +51,7 @@ public class App {
 
         System.out.println(utilitario);
 
-        System.out.println("==========================================================================================================================================");
+        System.out.println("==========================================================================================================================================\n");
         System.out.println(suv + "\n");
 
         suv.abastece(TipoCombustivel.FLEX, 999);
@@ -58,7 +63,7 @@ public class App {
 
         System.out.println(suv);
 
-        System.out.println("==========================================================================================================================================");
+        System.out.println("==========================================================================================================================================\n");
         System.out.println(suvFlex + "\n");
     }
 }
