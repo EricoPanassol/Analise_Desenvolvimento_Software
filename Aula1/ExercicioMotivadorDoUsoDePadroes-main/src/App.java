@@ -3,7 +3,7 @@ public class App {
 
         Carro basico = new Carro("Basico", TipoCombustivel.GASOLINA, 10, 55);
         Carro esportivo = new Carro("Esportivo", TipoCombustivel.GASOLINA, 6, 45);
-        Carro utilitario = new Carro("Utilitário", TipoCombustivel.FLEX, 5, 70);
+        Carro utilitario = new Carro("Utilitário", TipoCombustivel.DIESEL, 5, 70);
 
         
 
