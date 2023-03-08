@@ -52,6 +52,6 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Carro:\n  Modelo=" + modelo + "\n  Motor=" + motor + "\n  Tanque=" + tanque;
+        return "Carro:\n  Modelo = " + modelo + "\n  Motor = " + motor + "\n  Tanque = " + tanque;
     }
 }
