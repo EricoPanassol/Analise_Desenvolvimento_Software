@@ -9,3 +9,5 @@ public class App {
             .forEach(System.out::println);
     }
 }
+
+// “comentário inserido no branch main
