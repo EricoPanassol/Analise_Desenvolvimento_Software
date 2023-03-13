@@ -11,3 +11,4 @@ public class App {
 }
 
 // “comentário inserido no branch main
+// bug corrigido
