@@ -1,0 +1,7 @@
+/**
+ * IConsultasRepository
+ */
+public interface IConsultasRepository {
+
+    
+}
